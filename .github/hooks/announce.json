@@ -1,0 +1,14 @@
+{
+  "_comment": "The Hello-World hook. It wires our announce_event.py script to three lifecycle events. It never blocks anything — it only prints what is happening, so the class can SEE the agent lifecycle. Compare this with payguard.json, which actually makes a decision.",
+  "hooks": {
+    "SessionStart": [
+      { "type": "command", "command": "python scripts/hooks/announce_event.py" }
+    ],
+    "PreToolUse": [
+      { "type": "command", "command": "python scripts/hooks/announce_event.py" }
+    ],
+    "PostToolUse": [
+      { "type": "command", "command": "python scripts/hooks/announce_event.py" }
+    ]
+  }
+}
