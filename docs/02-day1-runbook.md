@@ -77,7 +77,7 @@
    Create `.github/copilot-instructions.md` and ask the room for their standards. Seed with:
    - This is PayLite, a training payments API. Keep all code deliberately simple.
    - Python 3.11+, FastAPI, Pydantic v2. No database — in-memory store only.
-   - Currencies limited to USD, EUR, GBP, INR, SGD; amounts 0 < x ≤ 250000.
+   - Currencies limited to USD, EUR, CHF; amounts 0 < x ≤ 250000.
    - Status lifecycle PENDING → AUTHORIZED → SETTLED / REJECTED, no other transitions.
    - Every endpoint needs a matching pytest test.
    - The audience is a Pega team: when asked to explain code, use Pega analogies.
