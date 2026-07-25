@@ -1,0 +1,7 @@
+[
+  {"id": "PAY-1001", "amount": 1250.0, "currency": "USD", "beneficiary": "Acme Supplies Ltd", "reference": "Invoice 4711", "status": "PENDING"},
+  {"id": "PAY-1002", "amount": 89.5, "currency": "EUR", "beneficiary": "Blue Ocean Logistics", "reference": null, "status": "PENDING"},
+  {"id": "PAY-1003", "amount": 240000.0, "currency": "GBP", "beneficiary": "Crown Estates", "reference": "Q3 lease", "status": "AUTHORIZED"},
+  {"id": "PAY-1004", "amount": 15000.0, "currency": "INR", "beneficiary": "Ganges Textiles", "reference": "PO-2231", "status": "SETTLED"},
+  {"id": "PAY-1005", "amount": 730.0, "currency": "SGD", "beneficiary": "Merlion Catering", "reference": "Team event", "status": "REJECTED"}
+]
