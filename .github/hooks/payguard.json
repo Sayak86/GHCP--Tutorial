@@ -1,0 +1,18 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "type": "command",
+        "command": "python scripts/hooks/protect_files.py",
+        "timeout": 10
+      }
+    ],
+    "PostToolUse": [
+      {
+        "type": "command",
+        "command": "python scripts/hooks/audit_log.py",
+        "timeout": 10
+      }
+    ]
+  }
+}
