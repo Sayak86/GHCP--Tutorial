@@ -1,9 +1,22 @@
 # Day 1 Run-Book — Foundations: from a Word BRD to a working API
 
 > Format: every block gives you **Say** (talking points), **Do** (exact clicks/commands), and
-> **Type into Copilot** (verbatim prompts, in blockquotes). Fallback branch is noted per demo.
-> Start state: a clone WITHOUT `.github/` customizations, `app/`, `requirements/` — i.e. the commit
-> before `Day1-Demo1-Instructions`.
+> **Type into Copilot** (verbatim prompts, in blockquotes). Each demo names its **reference branch**
+> (the finished result).
+>
+> **Start state — a blank canvas.** The `.github/` customizations, `requirements/`, and `app/` do
+> **not** exist yet, *on purpose*: the class **creates them live** during Day 1 — instructions in
+> Demo 1, `requirements/` in Demo 2, `app/` in Demo 4. That empty "before" is exactly what makes the
+> Demo 1 before/after contrast work (if the instructions file already existed, Copilot would obey it
+> from the first prompt and there'd be nothing to show).
+>
+> **Two ways to run Day 1:**
+> - **Live-build (recommended):** work in one clone and build the pieces up as you go. To get the
+>   empty canvas, start from an empty working folder — or check out a demo branch and move its new
+>   files aside first (e.g. `mv .github .github-reference`), teach, then restore. The demo branch is
+>   your finished **reference/answer key** to peek at.
+> - **Reference-only (fastest):** just `git checkout <demo branch>` and walk the class through the
+>   finished files, following that branch's own `README.md`. No live building.
 
 ---
 
